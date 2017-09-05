@@ -1,0 +1,30 @@
+{
+  "name": "denon-buttons",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "denon-avr": "0.0.5",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts": "1.0.13"
+  },
+  "scripts": {
+    "electron": "electron electron",
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "lint": "standard",
+    "fix": "standard --fix"
+  },
+  "devDependencies": {
+    "electron": "^1.7.5",
+    "standard": "^10.0.3"
+  },
+  "standard": {
+    "globals": [
+      "fetch",
+      "URL"
+    ]
+  }
+}

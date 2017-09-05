@@ -1,0 +1,12 @@
+button {
+  border: none;
+  background: #444;
+  color: #f7f7f7;
+  font-size: 2em;
+  flex: 1;
+}
+
+button.is-active {
+  background: #282828;
+  color: #3399ff;
+}

@@ -1,0 +1,12 @@
+.remote {
+  display: flex;
+  background: #282828;
+  font-size: 2em;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.remote .flexbox {
+  display: flex;
+  flex: 1;
+}
