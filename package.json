@@ -1,6 +1,6 @@
 {
   "name": "denon-buttons",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
     "denon-avr": "0.0.5",
